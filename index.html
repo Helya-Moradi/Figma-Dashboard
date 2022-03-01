@@ -1,0 +1,296 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="fonts/fontawesome-free-5.15.4-web/css/all.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <title>Course-Dashboard</title>
+</head>
+
+<body>
+
+    <section class="left sidebar fixed-top h-100">
+        <div class="menu-head d-flex align-items-center">
+            <i class="menu-head-ico bx bxl-opera"></i>
+            <a class="menu-head-text" href="#">Ohara</a>
+        </div>
+        <button class="main-btn width">Join a course</button>
+        <ul class="menu list-unstyled">
+            <li class="menu-item">
+                <a href="#" class="menu-link">
+                    <i class="menu-ico bx bxs-layout"></i>
+                    <p class="menu-text">Dashborad</p>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">
+                    <i class="menu-ico bx bx-grid-alt"></i>
+                    <p class="menu-text">All courses</p>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">
+                    <i class="menu-ico bx bx-user"></i>
+                    <p class="menu-text">Friends</p>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">
+                    <i class="menu-ico bx bx-message"></i>
+                    <p class="menu-text">Chats</p>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">
+                    <i class="menu-ico 	bx bx-cog"></i>
+                    <p class="menu-text">Settings</p>
+                </a>
+            </li>
+        </ul>
+        <div class="upgrade">
+            <img src="./img/folder-ico.png" alt="folder-icon" class="folder-ico">
+            <div class="upgrade-body">
+                <p class="upgrade-head">Upgrade to for more Resources</p>
+                <button class="main-btn">Upgrade</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="right">
+        <div class="profile d-flex align-items-center justify-content-between">
+            <img src="./img/accoint-ico.png" alt="profile-photo" class="profile-photo">
+            <a href="#" class="profile-text">Alexa Rogue</a>
+            <i class="bx bx-chevron-down drop-down" data-toggle="dropdown"></i>
+            <div class="dropdown-menu">
+                <a class="dropdown-item">Edit your profile</a>
+                <a class="dropdown-item">Change photo</a>
+                <a class="dropdown-item">Setting</a>
+            </div>
+        </div>
+
+        <div class="progress-section">
+            <h6 class="progress-head">Progress</h6>
+            <div class="progress-item">
+                <i class="progress-icon dark-blue bx bx-pencil"></i>
+                <div class="progres-text">
+                    <h6 class="progress-text-head">UI/UX Design</h6>
+                    <p class="progress-text-text">Advanced</p>
+                </div>
+                <div class="progress p-dark-blue">
+                    <div class="progress-bar p-b-dark-blue"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <i class="progress-icon blue bx bx-camera"></i>
+                <div class="progres-text">
+                    <h6 class="progress-text-head">Photography</h6>
+                    <p class="progress-text-text">Intermediate</p>
+                </div>
+                <div class="progress p-blue">
+                    <div class="progress-bar p-b-blue"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <i class="progress-icon orange bx bx-water"></i>
+                <div class="progres-text">
+                    <h6 class="progress-text-head">Animation</h6>
+                    <p class="progress-text-text">Advance</p>
+                </div>
+                <div class="progress p-orange">
+                    <div class="progress-bar p-b-orange"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-section coming">
+            <h6 class="progress-head">Upcoming Task</h6>
+            <div class="progress-item coming-item">
+                <i class="progress-icon dark-blue bx bx-message"></i>
+                <div class="progres-text">
+                    <h6 class="progress-text-head">UI/UX Discussion</h6>
+                    <p class="progress-text-text">20 Oct 2022, Sunday</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card illustration">
+            <img src="./img/illustration-down.png" alt="illustration" class="card-img">
+            <div class="card-img-overlay">
+                <div class="card-head">Download Ohara Now!</div>
+                <div class="download-icons">
+                    <i class="bx bxl-play-store download"></i>
+                    <i class="bx bxl-apple download"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home">
+
+        <div class="home-head d-flex align-items-center">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <i class="bx bx-search input-group-text d-flex align-items-center"></i>
+                </div>
+                <input type="text" name="search" id="search" placeholder="Search" class="search">
+            </div>
+            <i class='bx bx-bell bx-tada-hover bell'></i>
+            <box-icon name='bell' animation='tada-hover'></box-icon>
+        </div>
+
+        <div class="home-body">
+            <div class="home-nav d-md-flex align-items-baseline justify-content-between">
+                <h4 class="home-nav-head">All courses</h4>
+                <ul class="home-nav-list list-unstyled d-flex justify-content-between">
+                    <li class="home-nav-item"><a href="#" class="home-nav-link">Ongoing</a></li>
+                    <li class="home-nav-item"><a href="#" class="home-nav-link">Favorite</a></li>
+                    <li class="home-nav-item"><a href="#" class="home-nav-link">Complete</a></li>
+                </ul>
+            </div>
+            <div class="courses">
+                <div class="card ui-ux-desin m-2">
+                    <img src="./img/ui-ux-bg.png" alt="ui/ux-design" class="img-fluid  course-img">
+                    <div class="card-img-overlay">
+                        <div class="course-head">
+                            <div class="head-name">
+                                <h4 class="name">UI/UX Design</h4>
+                                <p class="name-lesson">20 lessons</p>
+                            </div>
+                            <p class="head-time">2h 20min</p>
+                        </div>
+                        <div class="course-footer">
+                            <i class="bx bx-play play"></i>
+                            <img src="./img/ui-ux-ico.png" alt="teacher-photo" class="footer-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card photography m-2">
+                    <img src="./img/photography-bg.png" alt="photography" class="img-fluid  course-img">
+                    <div class="card-img-overlay">
+                        <div class="courde-head">
+                            <div class="head-name">
+                                <h4 class="name">Photography</h4>
+                                <p class="name-lesson">12 lessons</p>
+                            </div>
+                            <p class="head-time">1h 30min</p>
+                        </div>
+                        <div class="course-footer">
+                            <i class="bx bx-play play"></i>
+                            <img src="./img/photography-ico.png" alt="teacher-photo" class="footer-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="card animation m-2">
+                    <img src="./img/animation-bg.png" alt="animation" class="img-fluid course-img">
+                    <div class="card-img-overlay">
+                        <div class="courde-head">
+                            <div class="head-name">
+                                <h4 class="name">Animation</h4>
+                                <p class="name-lesson">12 lessons</p>
+                            </div>
+                            <p class="head-time">2h 30min</p>
+                        </div>
+                        <div class="course-footer">
+                            <i class="bx bx-play play"></i>
+                            <img src="./img/animation-ico.png" alt="teacher-photo" class="footer-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="card grid m-2">
+                    <img src="./img/pexels-lumn-399160.jpg" alt="grid" class="img-fluid course-img">
+                    <div class="card-img-overlay">
+                        <div class="courde-head">
+                            <div class="head-name">
+                                <h4 class="name">Grid</h4>
+                                <p class="name-lesson">10 lessons</p>
+                            </div>
+                            <p class="head-time">2h 10min</p>
+                        </div>
+                        <div class="course-footer">
+                            <i class="bx bx-play play"></i>
+                            <img src="./img/ui-ux-ico.png" alt="teacher-photo" class="footer-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="card layout m-2">
+                    <img src="./img/pexels-ekaterina-bolovtsova-6193084.jpg" alt="layout"
+                        class="img-fluid course-img h-100">
+                    <div class="card-img-overlay">
+                        <div class="courde-head">
+                            <div class="head-name">
+                                <h4 class="name">Layout</h4>
+                                <p class="name-lesson">15 lessons</p>
+                            </div>
+                            <p class="head-time">2h 50min</p>
+                        </div>
+                        <div class="course-footer">
+                            <i class="bx bx-play play"></i>
+                            <img src="./img/animation-ico.png" alt="teacher-photo" class="footer-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="card colors m-2">
+                    <img src="./img/pexels-eberhard-grossgasteiger-2310713.jpg" alt="colors"
+                        class="img-fluid course-img">
+                    <div class="card-img-overlay">
+                        <div class="courde-head">
+                            <div class="head-name">
+                                <h4 class="name">Colors</h4>
+                                <p class="name-lesson">12 lessons</p>
+                            </div>
+                            <p class="head-time">2h 30min</p>
+                        </div>
+                        <div class="course-footer">
+                            <i class="bx bx-play play"></i>
+                            <img src="./img/photography-ico.png" alt="teacher-photo" class="footer-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script>
+        let sidebar = document.querySelector(".left");
+        let sidebarBtn = document.querySelector(".bxl-opera");
+        sidebarBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("sidebar");
+        });
+
+        // $("#search").on("keyup", function () {
+        //     var value = $(this).val().toLowerCase();
+        //     $(".home-body *").filter(function () {
+        //         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        //     });
+        // });
+    </script>
+
+</body>
+
+</html>
